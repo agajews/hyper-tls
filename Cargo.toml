@@ -16,7 +16,7 @@ vendored = ["native-tls/vendored"]
 [dependencies]
 bytes = "0.5"
 native-tls = "0.2"
-hyper = { version = "0.13", default-features = false, features = ["tcp"] }
+hyper = { path = "../hyper", default-features = false, features = ["tcp"] }
 tokio = { version = "0.2" }
 tokio-tls = "0.3"
 
